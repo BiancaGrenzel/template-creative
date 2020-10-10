@@ -1,0 +1,168 @@
+        .navbar {
+            padding-left: 70px !important;
+            height: 81px !important;
+            font-family: Qanelas Soft DEMO UltraLight !important;
+            font-size: 20px !important;
+            background-color: #454D72 !important;
+            box-shadow: 0px 6px 6px 0px rgba(50, 50, 50, 1) !important;
+        }
+        
+        .navbar-brand {
+            font-family: Qanelas Soft DEMO ExtraBold !important;
+            font-size: 30px !important;
+        }
+        
+        .navbar01 {
+            box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.19)!important;
+            z-index: 1;
+        }
+        
+        nav a {
+            color: white;
+        }
+        
+        nav a:hover {
+            color: #E9EFFF;
+        }
+        
+        nav div div a {
+            padding-left: 70px !important;
+            color: white;
+        }
+        
+        nav div div a:hover {
+            color: #E9EFFF;
+        }
+        
+        .img-fluid {
+            width: 100% !important;
+            height: 70% !important;
+            position: absolute !important;
+            z-index: 0;
+            opacity: 1;
+        }
+        
+        .jumbotron {
+            padding-left: 15% !important;
+            position: absolute !important;
+            background-color: transparent !important;
+        }
+        
+        div h1 {
+            font-family: Qanelas Soft DEMO ExtraBold !important;
+            color: #FFFFFF !important;
+        }
+        
+        div p {
+            font-family: Qanelas Soft DEMO UltraLight !important;
+            color: #FFFFFF !important;
+        }
+        
+        .lead {
+            padding-top: 40px !important;
+        }
+        
+        .button01 {
+            background: linear-gradient(to bottom, #e9efff 5%, #bdcaff 100%);
+            background-color: #e9efff;
+            border-radius: 8px;
+            display: inline-block;
+            cursor: pointer;
+            color: #323754;
+            font-family: Arial;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 40px;
+            text-decoration: none;
+            margin-top: 40px;
+        }
+        
+        .button01:hover {
+            background: linear-gradient(to bottom, #bdcaff 5%, #e9efff 100%);
+            background-color: #bdcaff;
+            font-style: none;
+        }
+        
+        .button01:active {
+            position: relative;
+            top: 1px;
+        }
+        
+        .img-centro {
+            position: absolute;
+            padding-left: 55%;
+        }
+        
+        .img-media-1 {
+            padding-left: 0% !important;
+        }
+        
+        .img-media {
+            padding-left: 30%;
+        }
+        
+        .lista {
+            position: absolute;
+            bottom: 30px;
+            display: flex;
+        }
+        
+        .container-icones {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .imgfundo2 {
+            position: absolute;
+            opacity: 0;
+            width: 100% !important;
+            height: 65% !important;
+            z-index: 0;
+        }
+        
+        @media (max-width: 1500px) {
+            .img-centro {
+                display: none;
+            }
+            .jumbotron {
+                padding-left: 0% !important;
+                background-color: transparent !important;
+                justify-content: center;
+            }
+            .container-meio {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .imgfundo2 {
+                opacity: 1 !important;
+            }
+            .img-fluid {
+                opacity: 0;
+            }
+            .container-icones {
+                display: inline;
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .container-icones {
+                opacity: 0;
+            }
+            .imgfundo2 {
+                height: 75% !important;
+            }
+            .button01 {
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 226px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
